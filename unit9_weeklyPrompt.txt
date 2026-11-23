@@ -1,0 +1,5 @@
+Question:
+Discuss how to avoid invalid data entries when reading 
+from CSV data files.
+
+Answer:

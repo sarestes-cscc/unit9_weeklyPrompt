@@ -3,3 +3,18 @@ Discuss how to avoid invalid data entries when reading
 from CSV data files.
 
 Answer:
+Based on chapter 16 in the textbook, there are many ways 
+to avoid invalid data entries. When working with CSV files, 
+it is based on what you are trying to do with/use the data for 
+and the output you are looking for. In the textbook example, the 
+text uses a try-except-else block to print the data that is missing, 
+but that isn't always necessary. You can use 
+variations of this depending on what you want to do with the 
+data – for example, you can delete the whole line if any data is missing, 
+or just continue without any action. Another way to handle errors 
+before they strike is utilizing the "encoding='utf-8'" rulebook when 
+reading in a file. This makes sure any nonstandard characters are 
+translated properly. This is an important rulebook to use whenever 
+you are reading from files, specifically large files that haven’t been 
+proofed before being read from.
+ 
